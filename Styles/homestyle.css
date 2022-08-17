@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+.MainContentHome {
+  left: 270px;
+  right: 0;
+  height: 100vh;
+  background-color: rgb(147, 147, 147);
+  background: linear-gradient(
+    10deg,
+    rgba(210, 210, 210, 1) 0%,
+    rgba(184, 184, 184, 1) 35%,
+    rgba(144, 144, 144, 1) 100%
+    );
+    position: fixed;
+    font-size: 30px;
+    background-image: url(/Images/HomeBackground.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  animation: 500ms ease-in-out 0s BlurBack;
+}
+
+@keyframes GetBig {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes BlurBack {
+  0% {
+    background-image: url(/Images/UnblurredHomeBackground.jpg);
+  }
+  100% {
+    background-image: url(/Images/HomeBackground.jpg);
+  }
+}
+
+@-moz-keyframes BlurBack {
+  0% {
+    background-image: url(/Images/HomeBackground.jpg);
+  }
+  100% {
+    background-image: url(/Images/HomeBackground.jpg);
+  }
+}
+
+
+.HomeText {
+
+  animation: 500ms ease-in 0s 1 GetBig;
+  text-align: center;
+  font-size: 2vw;
+  margin-top: 18%;
+  margin-left: 12.5%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  background-color: rgba(255, 255, 255, 0.20);
+  max-width: 80%;
+  font-family: "Dancing Script";
+  border-radius: 10vh;
+  transition: 100ms;
+}
+
+.HomeText:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.40);
+  transition: 100ms;
+}
+
+.nav .HomeButton {
+  background-color: rgb(200,200,200);
+  font-size: 18.5px;
+  animation: 150ms ease-in-out 0s BounceText;
+}
+
+.HomeText p {
+  font-family: "Handlee";
+}
+.RefLink {
+  color: black;
+}
+
+.RefLink:hover {
+  color: rgb(255, 255, 255);
+}
