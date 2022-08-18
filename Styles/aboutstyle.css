@@ -6,7 +6,7 @@
   right: 0;
   height: 100vh;
   background-color: rgb(147, 147, 147);
-  background-image: url(/Images/wave-haikei.svg),
+  background-image: url(Images/wave-haikei.svg),
     linear-gradient(
       10deg,
       rgba(210, 210, 210, 1) 0%,
