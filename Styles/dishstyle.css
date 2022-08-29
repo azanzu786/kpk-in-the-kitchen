@@ -125,3 +125,15 @@
   border-bottom: 0.2vh solid black;
   box-shadow: 0px 1px 5px black;
 }
+
+.TandNaanDishTitle {
+  font-family: "Dancing Script";
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 0, 0.582);
+  /*rgb(164, 91, 91) - Red
+    rgb(102, 66, 96) - Purple -- Other Color Possibilities*/
+  min-width: 100%;
+  text-align: center;
+  border-bottom: 0.2vh solid black;
+  box-shadow: 0px 1px 5px black;
+}
