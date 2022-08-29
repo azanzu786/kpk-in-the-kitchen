@@ -1,0 +1,65 @@
+.nav .ContactButton {
+    background-color: rgb(200,200,200);
+    font-size: 18.5px;
+    animation: 150ms ease-in-out 0s BounceText;
+  }
+  
+  .MainContentContact {
+    left: 270px;
+    right: 0;
+    height: 100vh;
+    background-color: rgb(147, 147, 147);
+    background: linear-gradient(
+      10deg,
+      rgba(210, 210, 210, 1) 0%,
+      rgba(184, 184, 184, 1) 35%,
+      rgba(144, 144, 144, 1) 100%
+    );
+    position: fixed;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ContactForm form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2vw 4vw;
+  }
+  
+  .ContactForm h2 {
+    margin-bottom: 5vh;
+    font-family: "Dancing Script";
+    background-color: white;
+    border-radius: 1vw;
+    padding: 1vw;
+    box-shadow: 0px 0px 1vw rgb(93, 93, 93);
+    min-width: 100%;
+    background-image: url(/Images/blob-scene-haikei\ \(11\).svg);
+    background-size: cover;
+  }
+  
+  .ContactForm input, textarea {
+    margin: 10px, 0;
+    padding: 20px;
+    outline: none;
+  }
+  
+  .ContactForm button {
+    padding: 15px;
+    background-color: rgb(97, 97, 238);
+    border: 0;
+    margin: 20px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0px 0px .5vw rgb(57, 57, 239);
+    border: .1vw solid rgb(57, 57, 239);
+  }
+  
+  .ContactForm button:hover {
+      transform: scale(1.01);
+  }
